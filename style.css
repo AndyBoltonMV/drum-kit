@@ -1,0 +1,47 @@
+#drum-kit {
+  display: grid;
+  background-image: url("./assets/drums.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vw;
+  height: 50vw;
+}
+
+.drum {
+  width: 20%;
+  height: 20%;
+  font-size: 0.8vw;
+}
+
+#crash {
+  grid-column: 1;
+  grid-row: 1;
+}
+#ride {
+  grid-column: 3;
+  grid-row: 1;
+}
+#hi-hat {
+  grid-column: 4;
+  grid-row: 2;
+}
+#high-tom {
+  grid-column: 1;
+  grid-row: 2;
+}
+#medium-tom {
+  grid-column: 3;
+  grid-row: 2;
+}
+#floor-tom {
+  grid-column: 1;
+  grid-row: 3;
+}
+#snare {
+  grid-column: 3;
+  grid-row: 3;
+}
+#bass-drum {
+  grid-column: 2;
+  grid-row: 4;
+}
